@@ -74,7 +74,7 @@ public class Person {
 		this.strPhone = strPhone;
 	}
 	
-	Person()
+	public Person()
 	{
 		setFirstName("dftFName");
 		setLastName("dftFName");
@@ -85,7 +85,7 @@ public class Person {
 		setPhone("dftPhone");
 	}
 
-	Person(String strNewFirstName,String strNewLastName, String strNewAdd, String strNewTown, String strNewPostCode, String strNewDOB, String strNewPhone)
+	public Person(String strNewFirstName,String strNewLastName, String strNewAdd, String strNewTown, String strNewPostCode, String strNewDOB, String strNewPhone)
 	{
 		setFirstName(strNewFirstName);
 		setLastName(strNewLastName);
